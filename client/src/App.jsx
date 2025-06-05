@@ -8,13 +8,13 @@ import Dashboard from './pages/hotelOwner/Dashboard'
 import AddRoom from './pages/hotelOwner/AddRoom'
 import ListRoom from './pages/hotelOwner/ListRoom'
 import HotelReg from './components/HotelReg'
-// import { useAppContext } from './context/AppContext'
-// import { Toaster } from 'react-hot-toast'
+import { useAppContext } from './context/AppContext'
+import { Toaster } from 'react-hot-toast'
 import AllRooms from './pages/AllRooms'
 import RoomDetails from './pages/RoomDetails'
 // import Footer from './components/Footer'
 import MyBookings from './pages/MyBookings'
-// import Loader from './components/Loader'
+import Loader from './components/Loader'
 
 const App = () => {
 
@@ -22,11 +22,13 @@ const App = () => {
   const isOwnerPath = useLocation().pathname.includes("owner"); // it checcks the url as a string if there is owner written then isOwnerPath will return true client navbar will not been showed up in the screen
  
 
-//   const { showHotelReg } = useAppContext();
+  const { showHotelReg } = useAppContext();
 
   return (
    <div className='font-inter'>
+   <Toaster/>
       {!isOwnerPath && <Navbar />}
+      {showHotelReg && <HotelReg/>}
           {/* <HotelReg/> */}
        <div className='min-h-[70vh]'>
          <Routes>

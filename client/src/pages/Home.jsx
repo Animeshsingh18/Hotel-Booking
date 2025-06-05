@@ -5,18 +5,15 @@ import ExclusiveOffers from '../components/ExclusiveOffers';
 import Testimonial from '../components/Testimonial';
 import NewsLetter from '../components/NewsLetter';
 import Footer from '../components/Footer';
-// import FeaturedDestination from '../components/FeaturedDestination'
-// import ExclusiveOffers from '../components/ExclusiveOffers'
-// import Testimonial from '../components/Testimonial '
-// import NewsLetter from '../components/NewsLetter'
-// import RecommendedHotels from '../components/RecommendedHotels'
+
+import RecommendedHotels from '../components/RecommendedHotels'
 
 const Home = () => {
-
-
+    
     return (
         <>
             <Hero />
+            <RecommendedHotels />
            <FeaturedDestination/>
            <ExclusiveOffers />
            <Testimonial/>
