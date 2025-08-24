@@ -12,13 +12,9 @@
 [![Nodemailer](https://img.shields.io/badge/Nodemailer-Email_Service-EA4335?logo=gmail&logoColor=white)](https://nodemailer.com)
 ---
 
-*Live Link:* [NexStay](https://nexstay.vercel.app/)
-
-*Author*: `Abinash Das`
-
 ## 📖 Project Description
 
-**NexStay** is a cutting-edge hotel booking management system designed to transform the way users interact with their travel accommodations. It provides a centralized, intuitive platform for travelers to effortlessly view, organize, and plan all their hotel reservations.
+Hotel booking management system is designed to transform the way users interact with their travel accommodations. It provides a centralized, intuitive platform for travelers to effortlessly view, organize, and plan all their hotel reservations.
 
 The vision is to eliminate the complexities of travel planning, offering a seamless, aesthetic, and exceptionally efficient user experience that makes every journey feel truly exceptional.
 
