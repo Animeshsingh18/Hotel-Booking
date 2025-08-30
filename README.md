@@ -1,4 +1,4 @@
-# NexStay: Your Next Stay, Simplified
+#Booking.Com: Your Next Stay, Simplified
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
